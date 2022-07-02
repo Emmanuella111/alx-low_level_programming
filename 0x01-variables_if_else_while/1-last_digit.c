@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <studio.h>
 #include <time.h>
 /**
  * main - Entry point for last digit
