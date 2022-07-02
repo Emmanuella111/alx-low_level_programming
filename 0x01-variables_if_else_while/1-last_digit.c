@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point for last digit
+ * main - Entry point
  * Description: last digit
  * Return: zero on success
  */
