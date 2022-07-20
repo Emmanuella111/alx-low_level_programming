@@ -1,10 +1,11 @@
 #include "main.h"
+
 /**
- *_puts_recursion - print string
- * @s: string to print
- * Description: print a stribg using recursion
- * return nothing
- */
+* _puts_recursion - print string
+* @s: string to print
+* Description: print string using recursion
+* Return: nothing
+*/
 
 void _puts_recursion(char *s)
 {
