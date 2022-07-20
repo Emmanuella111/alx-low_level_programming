@@ -1,22 +1,16 @@
-#include <main.h>
+#include <stdio.h>
 /**
- *_puts_recursion - print string
- * @s: string to print
- * Description: print a stribg using recursion
- * return nothing
+ * _puts_recursion - Prints string followed by new line
+ * @s: Pointer to String
+ * Return: Void
  */
-
 void _puts_recursion(char *s)
 {
-	int i;
-
-	i = 0;
-
-	if (s[i] != '\0')
+	if (*s != '\0')
 	{
-		_putchar(s[i]);
-		_puts_recursion(&s[i + 1]);
+		putchar(*s);
+		_puts_recursion(s + 1);
 	}
 	else
-		_putchar('\n');
+		putchar('\n');
 }
